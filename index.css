@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #1F2937;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+}
+
+#title{
+    margin: 50px;
+}
+
+header{
+    margin: 50px auto 50px auto;
+}
+
+#colored-title{
+    color: #4ADF86;
+}
+
+#app-info{
+    font-weight: bold;
+}
+
+#main{
+    margin: 1.5em;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.change-password-length {
+    font-family: Inter;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+   background: #10B981;
+   color:#fff;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 9px 17px 9px 15px;
+   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+   border-radius: 6px;
+}
+
+.shbtn , .btngenerate{
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 65px;
+    background: #10B981;
+    color: white;
+    text-align: center;
+    transition: ease-in-out 250ms;
+    width: 220px;
+    margin: 1em 0;
+}
+
+.btngenerate:hover{
+    color: #10B981;
+    transition: ease-in-out 250ms;
+    background: white;
+}
+
+a{
+    text-decoration: none;
+    color: #4ADF86;
+}
