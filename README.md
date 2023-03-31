@@ -1,6 +1,5 @@
-
-Quick start:
-
-```
-$ npm install
+$ npm install 
 $ npm start
+
+
+Happy Coding!

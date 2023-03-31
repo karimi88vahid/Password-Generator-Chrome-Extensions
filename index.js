@@ -1,11 +1,7 @@
-
-
 const generateBtn = document.getElementById("generate-btn");
 const generatedPassword = document.getElementById("generated-password");
 // const generatedPassword2 = document.getElementById("generated-password2");
 const changePasswordLength = document.querySelector('.change-password-length');
-
-
 
 
 function getpass(num=12) 
@@ -28,17 +24,22 @@ function getpass(num=12)
     changePasswordLength.addEventListener('input' , () =>  num = changePasswordLength.value);
 
     let pass = getpass(num);
-    let pass2 = getpass(num);
+    // let pass2 = getpass(num);
     
     generatedPassword.textContent = pass;
-    generatedPassword2.textContent = pass2;
+    // generatedPassword2.textContent = pass2;
 
   });
 
   generatedPassword.addEventListener("click",function(){
 
-    navigator.clipboard.writeText(generatedPassword.textContent);
-    generatedPassword.textContent = "copied to clipboard";
+    if(generatedPassword.textContent != "Your Password..."){
+      
+      navigator.clipboard.writeText(generatedPassword.textContent);
+      generatedPassword.textContent = "copied to clipboard";
+      generatedPassword.style.background = "blue";   
+
+    }
   });
 
   // generatedPassword2.addEventListener("click",function(){

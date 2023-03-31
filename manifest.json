@@ -1,0 +1,9 @@
+{
+    "manifest_version": 3,
+    "version": "0.1",
+    "name": "PasswordGenerator-VI",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "pass-vec.jpg"
+    }
+}
