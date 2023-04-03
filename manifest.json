@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "version": "1.0",
-    "description": "Generates a random password of a specified length between 6-12 (or a default length of 6 characters, if no length is specified).",
+    "version": "1.1",
     "name": "PasswordGenerator-VI",
+    "description": "Generates a random password of a specified length between 6-12 (or a default length of 6 characters, if no length is specified).",
     "action": {
         "default_popup": "index.html",
         "default_icon": "passphoto.png"
