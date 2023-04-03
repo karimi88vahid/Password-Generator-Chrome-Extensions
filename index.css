@@ -12,7 +12,7 @@ body {
 }
 
 #title{
-    margin: 0.5em;
+    margin: 1.5em;
     font-size: 1.5em;
 }
 
@@ -35,20 +35,16 @@ body {
 }
 
 .change-password-length {
-    font-family: Inter;
-   font-size: 1em;
-   font-weight: 400;
-   line-height: 1.5em;
-   background: #10B981;
-   color:#fff;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   padding: 9px 17px 9px 15px;
-   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-   border-radius: 6px;
-}
+    width: 15%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
 
 .shbtn , .btngenerate{
     border: none;
@@ -74,5 +70,9 @@ body {
 
 a{
     text-decoration: none;
-    color: #4ADF86;
+    color: #1d1357;
+}
+footer{
+    margin-top: 1.5em;
+    color: #a737a7;
 }
